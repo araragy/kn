@@ -349,8 +349,8 @@
 
   <header class="top">
     <div>
-      <h1>Sebaran Sisa Kerugian Negara</h1>
-      <p>Rekapitulasi sisa administrasi dan nilai Kerugian Negara (KN) menurut provinsi, disajikan di atas peta wilayah Indonesia.</p>
+      <h1>Sebaran Sisa Rekomendasi</h1>
+      <p>Rekapitulasi sisa Rekomendasi Administrasi (Adm), sisa Rekomendasi Kerugian Negara (KN) beserta nilainya menurut provinsi.</p>
     </div>
     <div class="source">
       <span>Sumber: Peta_Id.pptx (Slide 1)</span>
@@ -488,7 +488,7 @@ function showTooltip(p, xPct, yPct){
   `;
   mapWrap.appendChild(tip);
 
-  // keep the tooltip fully inside the map — nudge it back in if it would spill past an edge
+  // tooltip tetep di jero map, ulah kapotong ku bates peta
   const wrapRect = mapWrap.getBoundingClientRect();
   const tipRect = tip.getBoundingClientRect();
   const margin = 8;
